@@ -61,6 +61,7 @@ fn main() -> Result<()> {
         &project_name
     );
 
+    print_command(&args);
     print_logo();
     println!(
         "{} Bootstrapping {} project -> {}",
@@ -205,4 +206,12 @@ fn print_logo() {
     println!("_______________________");
     println!("< No Boilerplate Vite >");
     println!("-----------------------");
+}
+
+fn print_command(args: &Vec<String>) {
+    print!("> ");
+    for arg in args {
+        print!("{arg} ");
+    }
+    println!("");
 }
