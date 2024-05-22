@@ -1,6 +1,7 @@
 # No Boilerplate Vite
 Too often have I found myself creating a React project and having to manually install Tailwind and remove the boilerplate that comes with Vite. So, I wrote a super-simple CLI tool to automatically scaffold a Vite project and pre-install tailwind.
 ### Installation
+Note: Having `cargo`, `node` and `npm` already installed is a prerequisite.
 ```
 cargo build --release
 ```
