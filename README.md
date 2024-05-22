@@ -7,9 +7,9 @@ cargo build --release
 Add the created `nvb` executable in `target/release/` to path or any `bin` folder to access it globally in the terminal.
 ### Usage
 ```
-nbv demo-app -i
+nbv demo-app --install
 ```
-<img width="472" alt="Usage" src="https://github.com/alasgarlikamal/no-boilerplate-vite/assets/98516464/4977752f-ba44-48f4-a82b-0ec82880b32c">
+<img width="476" alt="Usage" src="https://github.com/alasgarlikamal/no-boilerplate-vite/assets/98516464/1fe56b24-8390-4479-8f56-91dcc5334cdc">
 
 ### Options
 ```
