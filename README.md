@@ -5,6 +5,9 @@ Too often have I found myself creating a React project and having to manually in
 cargo build --release
 ```
 Add the created `nvb` executable in `target/release/` to path or any `bin` folder to access it globally in the terminal.
+```
+sudo cp target/release/nbv /usr/local/bin
+```
 ### Usage
 ```
 nbv demo-app --install
