@@ -22,4 +22,6 @@ Omit `-i` or `--install` if you do not wish to download the npm packages
 nbv --help
 ```
 <img width="501" alt="Options" src="https://github.com/alasgarlikamal/no-boilerplate-vite/assets/98516464/0ac160b6-a3ea-4f46-861a-3c6474aa704d">
-
+<br/>
+<br/>
+PS: This project is useless if Vite decides to add `--tailwind` and `--no-boilerplate` options. 😔
