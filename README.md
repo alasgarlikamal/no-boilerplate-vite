@@ -12,6 +12,8 @@ sudo cp target/release/nbv /usr/local/bin
 ```
 nbv demo-app --install
 ```
+Omit `-i` or `--install` if you do not wish to download the npm packages
+
 <img width="476" alt="Usage" src="https://github.com/alasgarlikamal/no-boilerplate-vite/assets/98516464/1fe56b24-8390-4479-8f56-91dcc5334cdc">
 
 ### Options
