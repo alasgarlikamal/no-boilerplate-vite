@@ -191,7 +191,7 @@ fn install_packages() -> Result<Output> {
 }
 
 fn print_usage() {
-    println!("Usage: nvb [project-name] [options]");
+    println!("Usage: nbv [project-name] [options]");
     println!("Options:");
     println!("  --install, -i          Install npm packages too");
     println!("  --help, -h             Print command line options");
